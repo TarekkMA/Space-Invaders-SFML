@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../My First Game/spritesheet.gif">
+   </FileRef>
+   <FileRef
       location = "self:My First Game.xcodeproj">
    </FileRef>
 </Workspace>

@@ -12,7 +12,9 @@
 		E22F9AE91F92378F00FB5CAA /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E22F9AE81F92378F00FB5CAA /* cute_image.jpg */; };
 		E22F9AEB1F92378F00FB5CAA /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E22F9AEA1F92378F00FB5CAA /* nice_music.ogg */; };
 		E22F9AED1F92378F00FB5CAA /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E22F9AEC1F92378F00FB5CAA /* sansation.ttf */; };
-		E22F9AEF1F92378F00FB5CAA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E22F9AEE1F92378F00FB5CAA /* icon.png */; };
+		E22F9AF61F923EE000FB5CAA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E22F9AF51F923EE000FB5CAA /* icon.png */; };
+		E22F9B0B1F925CF000FB5CAA /* Pixelated.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E22F9B0A1F925CF000FB5CAA /* Pixelated.ttf */; };
+		E22F9B201F928DB700FB5CAA /* spritesheet.png in Resources */ = {isa = PBXBuildFile; fileRef = E22F9B1F1F928DB700FB5CAA /* spritesheet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +26,9 @@
 		E22F9AE81F92378F00FB5CAA /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 		E22F9AEA1F92378F00FB5CAA /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		E22F9AEC1F92378F00FB5CAA /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		E22F9AEE1F92378F00FB5CAA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E22F9AF51F923EE000FB5CAA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Downloads/icon.png; sourceTree = "<group>"; };
+		E22F9B0A1F925CF000FB5CAA /* Pixelated.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixelated.ttf; sourceTree = "<group>"; };
+		E22F9B1F1F928DB700FB5CAA /* spritesheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spritesheet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +81,12 @@
 		E22F9AE71F92378F00FB5CAA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E22F9B0A1F925CF000FB5CAA /* Pixelated.ttf */,
+				E22F9AF51F923EE000FB5CAA /* icon.png */,
 				E22F9AE81F92378F00FB5CAA /* cute_image.jpg */,
+				E22F9B1F1F928DB700FB5CAA /* spritesheet.png */,
 				E22F9AEA1F92378F00FB5CAA /* nice_music.ogg */,
 				E22F9AEC1F92378F00FB5CAA /* sansation.ttf */,
-				E22F9AEE1F92378F00FB5CAA /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -143,9 +149,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22F9AEF1F92378F00FB5CAA /* icon.png in Resources */,
+				E22F9B201F928DB700FB5CAA /* spritesheet.png in Resources */,
 				E22F9AED1F92378F00FB5CAA /* sansation.ttf in Resources */,
+				E22F9B0B1F925CF000FB5CAA /* Pixelated.ttf in Resources */,
 				E22F9AEB1F92378F00FB5CAA /* nice_music.ogg in Resources */,
+				E22F9AF61F923EE000FB5CAA /* icon.png in Resources */,
 				E22F9AE91F92378F00FB5CAA /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
